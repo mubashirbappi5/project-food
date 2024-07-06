@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border-radius: 4px;
+    padding: 11px 16px 11px 16px;
+
+
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif; 
+    color: rgb(255, 255, 255);
+
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: rgb(147, 185, 119);
+}
+.btncon{
+    text-align: center;
+}
+#hero{
+     height: 488px;
+     background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(../assets/hero-bg.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ #hero .hero-cont{
+    width: 542px;
+}
+#hero .hero-cont .subtitle{
+     color: rgb(255, 255, 255);
+     font-family: "Work Sans", sans-serif;
+     font-size: 19px;
+     font-weight: 600;
+     line-height: 38px;
+     letter-spacing: 0%;
+     text-align: center;
+     opacity: 0.8;
+     margin-bottom: 8px;
+
+}
+#hero .hero-cont .title{
+    color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 12px;
+}
+#hero .hero-cont .ditel{
+    color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 9px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 16px;
+
+}
+
+#card-box{
+    width: 660px;
+    margin: 50px auto;
+}
+#card-box .info{
+    margin-bottom: 20px;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 300;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.9;
+}
+#card-box .card #sp{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+padding: 7px 16px 7px 16px;
+
+
+background: rgba(82, 195, 3, 0.15);
+}
+
+#card-box .card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.card .image-box{
+    width: 200px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+#about{
+    display: flex;
+    flex-direction: row;
+
+}
+    
+
+.about-text{
+    
+    height: 300px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about .img-cont{
+    height: 300px;
+    width: 470px;
+}
+#about .img-cont img{
+    height: 100%;
+    width: 100%;
+}
+.about-text h1{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 12px;
+}    
+.about-text p{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.6;
+margin-bottom: 38px;
+
+}
+.follow p{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.social-icons{
+    max-width: 20px;
+    max-height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#cart{
+    height: 300px;
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#cart .card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+#cart .card #sp{
+    color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+padding: 7px 16px 7px 16px;
+
+
+background: rgba(82, 195, 3, 0.15);
+}
+#last{
+    width: 1024px;
+    height: 350px;
+    margin-top: 30px;
+    background-image: linear-gradient(#d0e0e6a8, #dcedf398 50%, #d5dfe2 90%), url(../assets/social-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last .about-text{
+    
+   
+    width: 470px;
+    height: 300px;
+    
+    
+}
